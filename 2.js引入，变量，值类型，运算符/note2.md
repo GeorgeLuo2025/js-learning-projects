@@ -130,26 +130,76 @@ a = !! 0
 a 等于 false
 
 # if 语句
+if 最后 一个else 后可以再加一个else处理error
 
+# 循环
+1. for loop:
+~~~
+for(var i = 0; i < 10; i++){
+    sth;
+}
+1 23 23 ...
+~~~
 
+2. while:
+~~~
+for(;   ;){
 
+}
+~~~
 
+3. do while:
 
+# switch case
+~~~ 
+switch(n){
+    case 1:
+    case 2:
 
+}
+n 跟case比对（
+比对对的后从那里开始执行
+记得break
+~~~
 
+# break
+终止循环
+可以放在for while switch 里
 
+# continue
+终止本次循环
+进行下次循环
 
+# 引用数据类型
 
+## 数组
+~~~
+var arr = [1, 2 , "3"];
+arr[];
+arr.length;
+~~~
 
+## 对象
+~~~
+var deng = {
+    key : value,
 
+}
+deng.key = ..
+~~~
 
+# 面向形式
+## 面向过程
+## 面向对象
 
+js即面向过程也面向对象
 
+# typeof()
+~~~
+typeof(var)
+返回一个数据类型“”的字符串 
+e.g. number, string, boolean, object, undefined, function
+object包含：object, array, null
 
-
-
-
-
-
-
+~~~
 
